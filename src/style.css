@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    margin: 40px;
+    background-color: rgb(63, 93, 148);
+}
+
+button{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    border: 0px;
+}
+
+
