@@ -11,6 +11,7 @@ const TituloPrincipal = (props) => {
     <>
       {/* aqui va el maquetado y muy poca logica */}
       <h1>Proyecto contador - {props.codigoComision}</h1>
+      <hr />
       {/* props son las propiedades que se pasan de padre a hijo */}
     </>
   );

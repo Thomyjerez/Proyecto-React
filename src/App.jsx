@@ -1,5 +1,9 @@
+import Contador from "./components/Contador";
 import Subtitulo from "./components/Subtitulo";
 import TituloPrincipal from "./TituloPrincipal";
+// para importar las hojas de estilo
+import './style.css'
+
 
 function App() {
 
@@ -11,7 +15,7 @@ function App() {
       <TituloPrincipal codigoComision= {comision} estado= {true} />
       <Subtitulo></Subtitulo>
       {/* puede ser llamado como etiqueta doble o simple */}
-
+    <Contador></Contador>
     </>
     
     
